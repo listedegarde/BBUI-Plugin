@@ -22,7 +22,7 @@ var _self = {},
     _ID = "com.blackberry.bbui";
 
 _self.initContext = function (value) {
-    exec(noop, noop, _ID, "initContext", {value : value}, true);
+    exec(noop, noop, _ID, "initContext", {value : value});
 }
 
 module.exports = _self;
